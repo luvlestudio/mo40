@@ -18,21 +18,21 @@ window.onload = () => {
     showMoreBtn.style.display = "none";
   });
 
-  collapseBtn.addEventListener("click", () => {
-    const galleryImages = document.querySelectorAll("#addGalleyItem");
-    galleryImages.forEach((img) => {
-      img.classList.add("hidden");
-    });
-    collapseBtn.style.display = "none";
+  // collapseBtn.addEventListener("click", () => {
+  //   const galleryImages = document.querySelectorAll("#addGalleyItem");
+  //   galleryImages.forEach((img) => {
+  //     img.classList.add("hidden");
+  //   });
+  //   collapseBtn.style.display = "none";
 
-    showMoreBtn.style.display = "inline-block";
-    showMoreBtn.style.backgroundColor = "ffe08c";
-    showMoreBtn.style.width = "70px";
-    showMoreBtn.style.textAlign = "center";
-    showMoreBtn.style.display = "block";
-    showMoreBtn.style.margin = "7% auto";
-    showMoreBtn.style.borderRadius = "15px";
-  });
+  //   showMoreBtn.style.display = "inline-block";
+  //   showMoreBtn.style.backgroundColor = "ffe08c";
+  //   showMoreBtn.style.width = "70px";
+  //   showMoreBtn.style.textAlign = "center";
+  //   showMoreBtn.style.display = "block";
+  //   showMoreBtn.style.margin = "7% auto";
+  //   showMoreBtn.style.borderRadius = "15px";
+  // });
 
   // const galleryImages = document.querySelectorAll("#gallery img");
   // galleryImages.forEach((img) => {
@@ -48,7 +48,7 @@ window.onload = () => {
       content: {
         title: "한성일 ♥ 김현희의 모바일 청첩장",
         description: "결혼식에 초대합니다♡",
-        imageUrl: "https://i.imgur.com/Ubua2yW.png",
+        imageUrl: "https://i.imgur.com/YYa2q8B.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
@@ -101,14 +101,14 @@ window.onload = () => {
     }
   });
 
-  const galleryImages = document.querySelectorAll("#gallery img");
-  galleryImages.forEach((img, index) => {
-    img.onclick = () => {
-      swiper.slideTo(index);
-      outsideModal.style.display = "block";
-      documentBody.style.overflow = "hidden";
-    };
-  });
+  // const galleryImages = document.querySelectorAll("#gallery img");
+  // galleryImages.forEach((img, index) => {
+  //   img.onclick = () => {
+  //     swiper.slideTo(index);
+  //     outsideModal.style.display = "block";
+  //     documentBody.style.overflow = "hidden";
+  //   };
+  // });
 
   const shareViaSMSBtn = document.querySelector(".shareTwoG");
   shareViaSMSBtn.addEventListener("click", () => {
