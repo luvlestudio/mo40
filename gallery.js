@@ -3,7 +3,7 @@ window.onload = () => {
   const collapseBtn = document.getElementById("collapseBtn");
   const hiddenImages = document.querySelectorAll("#gallery img.hidden");
 
-  showMoreBtn.addEventListener("click", () => {
+  showMoreBtn?.addEventListener("click", () => {
     hiddenImages.forEach((img) => {
       img.classList.remove("hidden");
     });
@@ -94,7 +94,7 @@ window.onload = () => {
   const documentBody = document.querySelector("body");
 
   const outsideModal = document.querySelector(".swiper");
-  outsideModal.addEventListener("click", function (event) {
+  outsideModal?.addEventListener("click", function (event) {
     if (event.target.classList.contains("swiper-slide")) {
       outsideModal.style.display = "none";
       documentBody.style.overflow = "auto";
