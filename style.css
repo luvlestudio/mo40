@@ -118,12 +118,12 @@ body {
   margin: 2% 0 2% 0;
   text-align: center;
 }
-
+/* 
 #gallerySection {
   background-color: #FBF1F1
   ;
   padding-top: 20%;
-}
+} */
 
 #gallery {
   display: grid;
@@ -228,7 +228,7 @@ body {
 }
 
 .countdownTimeInfo {
-  color: #D53B40;
+  color: #F45270;
   font-weight: 600;
 }
 
@@ -431,7 +431,7 @@ main {
 }
 
 #kakaoMapButton {
-  background-color: #D53B40;
+  background-color: #F45270;
   padding: 10px;
   text-align: center;
   width: auto;
