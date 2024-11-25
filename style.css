@@ -419,7 +419,7 @@ main {
 }
 
 #MapIconDiv {
-  color: #ffffff;
+  color: #000000;
   font-size: 13px;
   text-align: center;
   background-color: white;
@@ -431,7 +431,7 @@ main {
 }
 
 #kakaoMapButton {
-  background-color: #F45270;
+  background-color: #F1CBD2;
   padding: 10px;
   text-align: center;
   width: auto;
